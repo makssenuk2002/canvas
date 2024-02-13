@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plinko</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+  <div class="container" id="container">
+    <canvas id="myCanvas" width="600" height="600"></canvas>
+    <button onclick="startFalling()" class="btn">
+      <img src="./img/btn.png" alt="btn">
+    </button>
+  </div>
+
+  <div class="modal" id="myModal">
+    <img class="tp" src="./img/win.png" alt="">
+    <img class="bt" src="./img/Subtract.png" alt="">
+    <p class="modalText">ВАМ ВИПАЛО ЧИСЛО <span id="winNumber"></span></p>
+  </div>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
